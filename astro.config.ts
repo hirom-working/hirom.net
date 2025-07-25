@@ -51,3 +51,5 @@ export default defineConfig({
     enabled: false
   }
 })
+
+adapter: netlify()
