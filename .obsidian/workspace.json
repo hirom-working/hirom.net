@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:NIKKOR_Z_50mm",
+                "query": "tag:NIKKOR_Z_50mm_f12_S",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +181,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4cd6d330d58995ef",
+  "active": "9fa2a4e43120524a",
   "lastOpenFiles": [
     "src/content/posts/_assets/DSC_0607.jpg",
     "src/content/posts/_assets/DSC_0606.jpg",
