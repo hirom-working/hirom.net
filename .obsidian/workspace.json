@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "2025-07-29のアウトライン"
             }
+          },
+          {
+            "id": "24183d2e15579869",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,16 +175,18 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "4cd6d330d58995ef",
   "lastOpenFiles": [
+    "src/content/posts/markdown-style-guide.md",
     "src/content/posts/_theme-guide.md",
     "src/content/posts/2025-07-29.md",
+    "src/content/posts/_assets/DSC_0612.jpg",
     "src/content/posts/_draft-example.md",
     "src/content/posts/2025-07-09.md",
-    "src/content/posts/markdown-style-guide.md",
     "src/content/posts/_KaTeX-example.md"
   ]
 }
