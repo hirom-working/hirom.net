@@ -5,7 +5,7 @@ export const themeConfig: ThemeConfig = {
   site: {
     website: 'https://hirom.net/', // Site domain
     title: 'hirom.net', // Site title
-    author: 'YAMASHITA hiromu', // Author name
+    author: 'YAMASHITA Hiromu', // Author name
     description: 'Minimal blog built by Astro', // Site description
     language: 'ja-JP' // Default language
   },
