@@ -34,7 +34,7 @@
   "dateInHistoryView": true,
   "diffStyle": "split",
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
     "authorDisplay": "full",
     "showCommitHash": false,
@@ -54,7 +54,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 5,
+    "gutterSpacingFallbackLength": 27,
     "lastShownAuthorDisplay": "full",
     "lastShownDateTimeFormatOptions": "date"
   }
