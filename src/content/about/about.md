@@ -10,3 +10,5 @@ You can leave this empty if you don’t want to show any content.
 ## about
 
 (❀╹◡╹)ゞ
+
+::x{url="https://x.com/Hiromtoon/status/1948424354498543744"}
