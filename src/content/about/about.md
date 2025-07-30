@@ -9,5 +9,4 @@ You can leave this empty if you don’t want to show any content.
 
 ## about
 
-(❀╹◡╹)ゞ
-[![](../posts/_assets/Twitter.png)  width="50%](https://x.com/Hiromtoon)
+学んだことや写真などを置いておく場所として
