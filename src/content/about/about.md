@@ -10,4 +10,4 @@ You can leave this empty if you don’t want to show any content.
 ## about
 
 (❀╹◡╹)ゞ
-![https://x.com/Hiromtoon](../posts/_assets/Twitter.png)
+[![](../posts/_assets/Twitter.png)](https://x.com/Hiromtoon)
