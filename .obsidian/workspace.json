@@ -65,12 +65,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GEMINI.md",
+                    "file": "src/content/posts/2025-07-31_写真データストレージ検討.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "GEMINI"
+                  "title": "2025-07-31_写真データストレージ検討"
                 }
               }
             ],
@@ -282,9 +282,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "77fffa353cffc967",
+  "active": "27bda8b4d2865f57",
   "lastOpenFiles": [
     "GEMINI.md",
+    "src/content/posts/2025-07-30.md",
     "GEMINI.md.md",
     "無題のカンバン.md",
     "src/content/posts/2025-07-31_写真データストレージ検討.md",
@@ -300,7 +301,6 @@
     "src/content/posts/_markdown-style-guide.md",
     "src/content/posts/_theme-guide.md",
     "src/content/posts/_draft-example.md",
-    "src/content/posts/2025-07-30.md",
     "src/content/posts/2025-07-29.md",
     "src/content/about/about.md",
     "src/content/posts/_assets/Discord.png",
