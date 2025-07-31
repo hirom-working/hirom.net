@@ -65,12 +65,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GEMINI.md.md",
+                    "file": "GEMINI.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "GEMINI.md"
+                  "title": "GEMINI"
                 }
               }
             ],
@@ -282,9 +282,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "77fffa353cffc967",
+  "active": "27bda8b4d2865f57",
   "lastOpenFiles": [
     "GEMINI.md.md",
+    "GEMINI.md",
     "無題のカンバン.md",
     "src/content/posts/2025-07-31_写真データストレージ検討.md",
     "src/content/posts/2025-07-31_近所を朝散歩.md",
