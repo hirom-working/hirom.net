@@ -49,14 +49,14 @@
                 "state": {
                   "type": "kanban",
                   "state": {
-                    "file": "src/content/posts/_無題のカンバン.md",
+                    "file": "無題のカンバン.md",
                     "kanbanViewState": {
                       "kanban-plugin": "board",
                       "list-collapse": []
                     }
                   },
                   "icon": "lucide-trello",
-                  "title": "_無題のカンバン"
+                  "title": "無題のカンバン"
                 }
               }
             ],
@@ -271,7 +271,7 @@
   "active": "2d995f50191d4d9f",
   "lastOpenFiles": [
     "src/content/posts/2025-07-31_写真データストレージ検討.md",
-    "src/content/posts/_無題のカンバン.md",
+    "無題のカンバン.md",
     "src/content/posts/2025-07-31_近所を朝散歩.md",
     "src/content/posts/2025-07-30_no title.md",
     "src/content/posts/_assets/DSC_4442.jpg",
