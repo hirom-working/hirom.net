@@ -42,7 +42,9 @@ When asked to perform common tasks, use the following `pnpm` scripts:
     -   `title`: The title of the post.
     -   `pubDate`: The publication date in `YYYY-MM-DD` format.
     -   `description`: A brief summary of the post.
-    -   `tags`: An array of relevant tags (e.g., `["Astro", "TypeScript"]`).
+    -   `tags`: An array of relevant tags (e.g., `["Astro", "TypeScript"]`). **Note: Any article generated or appended by Gemini CLI must include the `Gemini_CLI` tag.**
+-   **File Generation Location:** All generated or modified content files must be located exclusively within `src/content/posts/`.
+-   **File Naming Convention:** Generated or modified post files must adhere to the `YYYY-MM-DD_記事名.md` format.
 
 ## 5. Code Style and Conventions
 
