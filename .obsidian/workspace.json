@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "baed28601bec49f1",
+        "id": "9660937767303720",
         "type": "split",
         "children": [
           {
@@ -77,11 +77,11 @@
             "currentTab": 3
           },
           {
-            "id": "1101978f08f08288",
+            "id": "9c6d827ae9b2da11",
             "type": "tabs",
             "children": [
               {
-                "id": "77fffa353cffc967",
+                "id": "1bc0f6c3312dbae5",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -115,7 +115,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: Gemini - hirom.net"
+                  "title": "Terminal: hirom@macbookpro:~/Projects/hirom.net"
                 }
               }
             ]
@@ -282,12 +282,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "24183d2e15579869",
+  "active": "1bc0f6c3312dbae5",
   "lastOpenFiles": [
+    "src/content/posts/2025-07-30 Twitterのポストを表示してみる.md",
     "src/pages/tags/[tag].astro",
     "src/pages/tags",
     "src/components/ui/TagLink.astro",
-    "src/content/posts/2025-07-30 Twitterのポストを表示してみる.md",
     "src/content/posts/2025-07-30.md",
     "src/content/posts/2025-07-29.md",
     "GEMINI.md",
