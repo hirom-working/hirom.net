@@ -21,6 +21,15 @@ const finalWidth = shouldUseCustomWidth ? `${widthValue}rem` : '25rem'
   <head>
     {fadeAnimation && <ClientRouter />}
     <slot name="head" />
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XX9EXPT0X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6XX9EXPT0X');
+    </script>
   </head>
   <body
     data-centered={themeConfig.general.centeredLayout}
