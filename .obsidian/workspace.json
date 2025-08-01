@@ -282,8 +282,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "24183d2e15579869",
+  "active": "77fffa353cffc967",
   "lastOpenFiles": [
+    "src/pages/tags/[tag].astro",
+    "src/pages/tags",
+    "src/components/ui/TagLink.astro",
     "src/content/posts/2025-07-30 Twitterのポストを表示してみる.md",
     "src/content/posts/2025-07-30.md",
     "src/content/posts/2025-07-29.md",
