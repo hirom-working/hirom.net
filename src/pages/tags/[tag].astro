@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import PostList from "@widgets/PostList.astro";
-import { SITE } from "@config";
+import { SITE } from "../../config.ts";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
