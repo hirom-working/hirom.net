@@ -58,13 +58,15 @@ const ogImage = `/open-graph/${postSlug}.png`
         </div>
         <slot />
 
-        <div class="tags">
-          {tags.map(tag => (
-            <a href={`/tags/${tag}`} class="tag">
-              {tag}
-            </a>
-          ))}
-        </div>
+        {tags && tags.length > 0 && (
+          <div class="tags">
+            {tags.map(tag => (
+              <a href={`/tags/${tag}`} class="tag">
+                {tag}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </main>
     <ImageOptimizer />
