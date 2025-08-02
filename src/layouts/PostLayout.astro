@@ -44,6 +44,10 @@ const ogImage = `/open-graph/${postSlug}.png`
         {themeConfig.post.toc && <TableOfContents toc={toc} />}
         <div class="title">
           <h1>{title}</h1>
+          <div style="background: #eee; padding: 1rem; margin: 1rem 0; overflow-x: auto;">
+            <h3>Props Debug:</h3>
+            <pre>{JSON.stringify(Astro.props, null, 2)}</pre>
+          </div>
           <div class="date">
             <FormattedDate date={pubDate} context="post" />
             {
