@@ -1,23 +1,42 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import IndexLayout from "../../layouts/IndexLayout.astro";
 import { themeConfig } from "../../config.ts";
 
 const posts = await getCollection("posts");
 const tags = [...new Set(posts.flatMap(post => post.data.tags || []))].filter(Boolean);
 ---
 
-<BaseLayout title={`Tags - ${themeConfig.site.title}`} description="All tags used in the blog">
-  <h1 class="text-2xl font-bold">Tags</h1>
-  <ul class="mt-4 flex flex-wrap gap-2">
-    {
-      tags.map(tag => (
-        <li>
-          <a href={`/tags/${tag}`} class="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-200 mr-2 mb-2">
+<IndexLayout title={`Tags - ${themeConfig.site.title}`} description="All tags used in the blog">
+  <main>
+    <h1 class="text-2xl font-bold mb-4">Tags</h1>
+    <ul class="mt-4 flex flex-wrap gap-2">
+      {
+        tags.map(tag => (
+          <li>
+            <a href={`/tags/${tag}`} class="tag">
             {tag}
           </a>
-        </li>
-      ))
-    }
-  </ul>
-</BaseLayout>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</IndexLayout>
+
+<style>
+  .tag {
+    display: inline-block;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .tag:hover {
+    background-color: var(--color-bg-tertiary);
+  }
+</style>
