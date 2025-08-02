@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PostList from "../../components/widgets/PostList.astro";
-import { SITE } from "../../config.ts";
+import { themeConfig } from "../../config.ts";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -18,7 +18,7 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<BaseLayout title={`Posts tagged with "${tag}" - ${SITE.name}`} description={`All posts tagged with "${tag}"`}>
+<BaseLayout title={`Posts tagged with "${tag}" - ${themeConfig.site.title}`} description={`All posts tagged with "${tag}"`}>
   <h1 class="text-2xl font-bold mb-4">Posts tagged with "{tag}"</h1>
   <PostList posts={posts} />
 </BaseLayout>

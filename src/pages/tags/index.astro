@@ -1,13 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE } from "../../config.ts";
+import { themeConfig } from "../../config.ts";
 
 const posts = await getCollection("posts");
 const tags = [...new Set(posts.flatMap(post => post.data.tags))];
 ---
 
-<BaseLayout title={`Tags - ${SITE.name}`} description="All tags used in the blog">
+<BaseLayout title={`Tags - ${themeConfig.site.title}`} description="All tags used in the blog">
   <h1 class="text-2xl font-bold">Tags</h1>
   <ul class="mt-4 flex flex-wrap gap-2">
     {
