@@ -20,8 +20,9 @@ const { Content, remarkPluginFrontmatter } = await render(post)
 
 const readingTime = remarkPluginFrontmatter.readingTime
 const toc = remarkPluginFrontmatter.toc || []
+const tags = post.data.tags // 明示的にtagsを取得
 ---
 
-<PostLayout {...post.data} readingTime={readingTime} toc={toc}>
+<PostLayout {...post.data} readingTime={readingTime} toc={toc} tags={tags}>
   <Content />
 </PostLayout>
