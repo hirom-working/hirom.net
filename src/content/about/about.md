@@ -10,3 +10,5 @@ You can leave this empty if you don’t want to show any content.
 ## about
 
 学んだことや写真などを置いておく場所として
+
+[すべてのタグを見る](/tags)
