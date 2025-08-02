@@ -44,6 +44,7 @@ const ogImage = `/open-graph/${postSlug}.png`
         {themeConfig.post.toc && <TableOfContents toc={toc} />}
         <div class="title">
           <h1>{title}</h1>
+          <pre>{JSON.stringify(tags, null, 2)}</pre> {/* Debugging line */}
           <div class="date">
             <FormattedDate date={pubDate} context="post" />
             {
