@@ -44,9 +44,6 @@ const ogImage = `/open-graph/${postSlug}.png`
         {themeConfig.post.toc && <TableOfContents toc={toc} />}
         <div class="title">
           <h1>{title}</h1>
-          <div id="debug-test-sentinel" style="background: yellow; color: black; padding: 1rem; font-weight: bold;">
-            これは PostLayout.astro からのテスト表示です。このメッセージが表示されれば、ファイルの編集は成功しています。
-          </div>
           <div class="date">
             <FormattedDate date={pubDate} context="post" />
             {
@@ -61,15 +58,13 @@ const ogImage = `/open-graph/${postSlug}.png`
         </div>
         <slot />
 
-        {tags && tags.length > 0 && (
-          <div class="tags">
-            {tags.map(tag => (
-              <a href={`/tags/${tag}`} class="tag">
-                {tag}
-              </a>
-            ))}
-          </div>
-        )}
+        <div class="tags">
+          {tags.map(tag => (
+            <a href={`/tags/${tag}`} class="tag">
+              {tag}
+            </a>
+          ))}
+        </div>
       </div>
     </main>
     <ImageOptimizer />
